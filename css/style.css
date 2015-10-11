@@ -2,9 +2,32 @@ body{
 	background-color: bababa;
 	background:url(images/"logo.png");
 }
+
+#imgpos {
+	position: absolute; 
+	left: 50px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+	}
+#imgpos_0 {
+position: absolute;	
+left:50px;
+top:120px
+	
+}
+
+#square { 
+width: 100px; 
+height: 100px; 
+background: red; 
+position: absolute;
+left:300;
+top:300;
+}
+	
 h1{
 color:464545;	
-text-align:center;
+text-align: Center;
+position: absolute; 
 }
 p{
 font-family:"ARIAL";
@@ -14,8 +37,4 @@ font-size:22px;
 word-spacing: 2px;
 }
 
-#imgpos {
-	position: absolute; 
-	left: 250px; /* posiciona a 90px para a esquerda */ 
-	top: 250px; /* posiciona a 70px para baixo */
-	}
+
