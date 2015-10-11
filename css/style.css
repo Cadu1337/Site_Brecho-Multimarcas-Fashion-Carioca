@@ -1,15 +1,21 @@
-body
-{
+body{
 	background-color: bababa;
+	background:url(images/"logo.png");
 }
-h1
-{
+h1{
 color:464545;	
 text-align:center;
 }
-p
-}
-font-family:"courier";
-color:red;
+p{
+font-family:"ARIAL";
+text-align:center;
+color:BLACK;
 font-size:22px;
+word-spacing: 2px;
 }
+
+#imgpos {
+	position: absolute; 
+	left: 250px; /* posiciona a 90px para a esquerda */ 
+	top: 250px; /* posiciona a 70px para baixo */
+	}
